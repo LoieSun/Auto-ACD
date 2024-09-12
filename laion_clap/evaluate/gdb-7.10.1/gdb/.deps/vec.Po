@@ -1,0 +1,67 @@
+vec.o: common/vec.c common/common-defs.h config.h build-gnulib/config.h \
+ build-gnulib/import/stdio.h build-gnulib/import/stdlib.h \
+ build-gnulib/import/string.h ../include/ansidecl.h \
+ ../include/libiberty.h ../include/ansidecl.h gnulib/import/pathmax.h \
+ build-gnulib/import/unistd.h ../include/gdb/signals.h \
+ ../include/gdb/signals.def common/gdb_locale.h common/ptid.h \
+ common/common-types.h ../bfd/bfd.h ../include/symcat.h \
+ build-gnulib/import/sys/stat.h common/common-utils.h common/gdb_assert.h \
+ common/errors.h common/print-utils.h common/common-debug.h \
+ common/cleanups.h common/common-exceptions.h common/gdb_setjmp.h \
+ common/vec.h
+
+common/common-defs.h:
+
+config.h:
+
+build-gnulib/config.h:
+
+build-gnulib/import/stdio.h:
+
+build-gnulib/import/stdlib.h:
+
+build-gnulib/import/string.h:
+
+../include/ansidecl.h:
+
+../include/libiberty.h:
+
+../include/ansidecl.h:
+
+gnulib/import/pathmax.h:
+
+build-gnulib/import/unistd.h:
+
+../include/gdb/signals.h:
+
+../include/gdb/signals.def:
+
+common/gdb_locale.h:
+
+common/ptid.h:
+
+common/common-types.h:
+
+../bfd/bfd.h:
+
+../include/symcat.h:
+
+build-gnulib/import/sys/stat.h:
+
+common/common-utils.h:
+
+common/gdb_assert.h:
+
+common/errors.h:
+
+common/print-utils.h:
+
+common/common-debug.h:
+
+common/cleanups.h:
+
+common/common-exceptions.h:
+
+common/gdb_setjmp.h:
+
+common/vec.h:

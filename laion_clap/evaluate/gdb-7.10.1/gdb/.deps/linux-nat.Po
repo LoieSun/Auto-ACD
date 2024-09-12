@@ -1,0 +1,273 @@
+linux-nat.o: linux-nat.c defs.h common/common-defs.h config.h \
+ build-gnulib/config.h build-gnulib/import/stdio.h \
+ build-gnulib/import/stdlib.h build-gnulib/import/string.h \
+ ../include/ansidecl.h ../include/libiberty.h ../include/ansidecl.h \
+ gnulib/import/pathmax.h build-gnulib/import/unistd.h \
+ ../include/gdb/signals.h ../include/gdb/signals.def common/gdb_locale.h \
+ common/ptid.h common/common-types.h ../bfd/bfd.h ../include/symcat.h \
+ build-gnulib/import/sys/stat.h common/common-utils.h common/gdb_assert.h \
+ common/errors.h common/print-utils.h common/common-debug.h \
+ common/cleanups.h common/common-exceptions.h common/gdb_setjmp.h \
+ gdb_wchar.h build-gnulib/import/wctype.h ui-file.h common/host-defs.h \
+ ../include/hashtab.h nm.h ../include/fopen-bin.h gdbarch.h frame.h \
+ unwind_stop_reasons.def regcache.h common/common-regcache.h utils.h \
+ exceptions.h ui-out.h inferior.h breakpoint.h value.h doublest.h \
+ ../include/floatformat.h symtab.h common/vec.h common/gdb_vecs.h \
+ common/vec.h gdbtypes.h minsyms.h expression.h std-operator.def \
+ ada-operator.def ax.h common/ax.def command.h common/break-common.h \
+ probe.h target.h infrun.h target/target.h target/waitstatus.h \
+ common/gdb_signals.h target/resume.h target/wait.h target/waitstatus.h \
+ memattr.h btrace.h common/btrace-common.h progspace.h registry.h \
+ nat/linux-nat.h nat/linux-waitpid.h common/gdb_wait.h linux-nat.h \
+ nat/linux-ptrace.h nat/linux-procfs.h nat/linux-personality.h \
+ linux-fork.h gdbthread.h common/vec.h gdbcmd.h regset.h inf-child.h \
+ inf-ptrace.h auxv.h ../bfd/elf-bfd.h ../include/elf/common.h \
+ ../include/elf/external.h ../include/elf/internal.h ../include/bfdlink.h \
+ gregset.h gdbcore.h exec.h memrange.h inf-loop.h event-loop.h \
+ event-top.h build-gnulib/import/dirent.h xml-support.h gdb_obstack.h \
+ ../include/obstack.h common/xml-utils.h solib.h nat/linux-osdata.h \
+ linux-tdep.h symfile.h common/agent.h tracepoint.h common/buffer.h \
+ target-descriptions.h common/filestuff.h objfiles.h gdb_bfd.h \
+ nat/linux-namespaces.h common/fileio.h ../include/gdb/fileio.h
+
+defs.h:
+
+common/common-defs.h:
+
+config.h:
+
+build-gnulib/config.h:
+
+build-gnulib/import/stdio.h:
+
+build-gnulib/import/stdlib.h:
+
+build-gnulib/import/string.h:
+
+../include/ansidecl.h:
+
+../include/libiberty.h:
+
+../include/ansidecl.h:
+
+gnulib/import/pathmax.h:
+
+build-gnulib/import/unistd.h:
+
+../include/gdb/signals.h:
+
+../include/gdb/signals.def:
+
+common/gdb_locale.h:
+
+common/ptid.h:
+
+common/common-types.h:
+
+../bfd/bfd.h:
+
+../include/symcat.h:
+
+build-gnulib/import/sys/stat.h:
+
+common/common-utils.h:
+
+common/gdb_assert.h:
+
+common/errors.h:
+
+common/print-utils.h:
+
+common/common-debug.h:
+
+common/cleanups.h:
+
+common/common-exceptions.h:
+
+common/gdb_setjmp.h:
+
+gdb_wchar.h:
+
+build-gnulib/import/wctype.h:
+
+ui-file.h:
+
+common/host-defs.h:
+
+../include/hashtab.h:
+
+nm.h:
+
+../include/fopen-bin.h:
+
+gdbarch.h:
+
+frame.h:
+
+unwind_stop_reasons.def:
+
+regcache.h:
+
+common/common-regcache.h:
+
+utils.h:
+
+exceptions.h:
+
+ui-out.h:
+
+inferior.h:
+
+breakpoint.h:
+
+value.h:
+
+doublest.h:
+
+../include/floatformat.h:
+
+symtab.h:
+
+common/vec.h:
+
+common/gdb_vecs.h:
+
+common/vec.h:
+
+gdbtypes.h:
+
+minsyms.h:
+
+expression.h:
+
+std-operator.def:
+
+ada-operator.def:
+
+ax.h:
+
+common/ax.def:
+
+command.h:
+
+common/break-common.h:
+
+probe.h:
+
+target.h:
+
+infrun.h:
+
+target/target.h:
+
+target/waitstatus.h:
+
+common/gdb_signals.h:
+
+target/resume.h:
+
+target/wait.h:
+
+target/waitstatus.h:
+
+memattr.h:
+
+btrace.h:
+
+common/btrace-common.h:
+
+progspace.h:
+
+registry.h:
+
+nat/linux-nat.h:
+
+nat/linux-waitpid.h:
+
+common/gdb_wait.h:
+
+linux-nat.h:
+
+nat/linux-ptrace.h:
+
+nat/linux-procfs.h:
+
+nat/linux-personality.h:
+
+linux-fork.h:
+
+gdbthread.h:
+
+common/vec.h:
+
+gdbcmd.h:
+
+regset.h:
+
+inf-child.h:
+
+inf-ptrace.h:
+
+auxv.h:
+
+../bfd/elf-bfd.h:
+
+../include/elf/common.h:
+
+../include/elf/external.h:
+
+../include/elf/internal.h:
+
+../include/bfdlink.h:
+
+gregset.h:
+
+gdbcore.h:
+
+exec.h:
+
+memrange.h:
+
+inf-loop.h:
+
+event-loop.h:
+
+event-top.h:
+
+build-gnulib/import/dirent.h:
+
+xml-support.h:
+
+gdb_obstack.h:
+
+../include/obstack.h:
+
+common/xml-utils.h:
+
+solib.h:
+
+nat/linux-osdata.h:
+
+linux-tdep.h:
+
+symfile.h:
+
+common/agent.h:
+
+tracepoint.h:
+
+common/buffer.h:
+
+target-descriptions.h:
+
+common/filestuff.h:
+
+objfiles.h:
+
+gdb_bfd.h:
+
+nat/linux-namespaces.h:
+
+common/fileio.h:
+
+../include/gdb/fileio.h:

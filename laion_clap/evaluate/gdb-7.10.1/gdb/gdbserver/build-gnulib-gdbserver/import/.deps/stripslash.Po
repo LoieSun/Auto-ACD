@@ -1,0 +1,18 @@
+stripslash.o: ../.././../gnulib/import/stripslash.c \
+ /usr/include/stdc-predef.h ../config.h \
+ ../.././../gnulib/import/dirname.h \
+ /usr/lib/gcc/x86_64-redhat-linux/4.8.5/include/stdbool.h \
+ /usr/lib/gcc/x86_64-redhat-linux/4.8.5/include/stddef.h \
+ ../.././../gnulib/import/dosname.h
+
+/usr/include/stdc-predef.h:
+
+../config.h:
+
+../.././../gnulib/import/dirname.h:
+
+/usr/lib/gcc/x86_64-redhat-linux/4.8.5/include/stdbool.h:
+
+/usr/lib/gcc/x86_64-redhat-linux/4.8.5/include/stddef.h:
+
+../.././../gnulib/import/dosname.h:

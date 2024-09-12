@@ -1,0 +1,150 @@
+target-dcache.o: target-dcache.c defs.h common/common-defs.h config.h \
+ build-gnulib/config.h build-gnulib/import/stdio.h \
+ build-gnulib/import/stdlib.h build-gnulib/import/string.h \
+ ../include/ansidecl.h ../include/libiberty.h ../include/ansidecl.h \
+ gnulib/import/pathmax.h build-gnulib/import/unistd.h \
+ ../include/gdb/signals.h ../include/gdb/signals.def common/gdb_locale.h \
+ common/ptid.h common/common-types.h ../bfd/bfd.h ../include/symcat.h \
+ build-gnulib/import/sys/stat.h common/common-utils.h common/gdb_assert.h \
+ common/errors.h common/print-utils.h common/common-debug.h \
+ common/cleanups.h common/common-exceptions.h common/gdb_setjmp.h \
+ gdb_wchar.h build-gnulib/import/wctype.h ui-file.h common/host-defs.h \
+ ../include/hashtab.h nm.h ../include/fopen-bin.h gdbarch.h frame.h \
+ unwind_stop_reasons.def regcache.h common/common-regcache.h utils.h \
+ exceptions.h ui-out.h target-dcache.h dcache.h target.h infrun.h \
+ symtab.h common/vec.h common/gdb_vecs.h common/vec.h gdbtypes.h \
+ minsyms.h target/target.h target/waitstatus.h common/gdb_signals.h \
+ target/resume.h target/wait.h target/waitstatus.h memattr.h btrace.h \
+ common/btrace-common.h command.h gdbcmd.h progspace.h registry.h
+
+defs.h:
+
+common/common-defs.h:
+
+config.h:
+
+build-gnulib/config.h:
+
+build-gnulib/import/stdio.h:
+
+build-gnulib/import/stdlib.h:
+
+build-gnulib/import/string.h:
+
+../include/ansidecl.h:
+
+../include/libiberty.h:
+
+../include/ansidecl.h:
+
+gnulib/import/pathmax.h:
+
+build-gnulib/import/unistd.h:
+
+../include/gdb/signals.h:
+
+../include/gdb/signals.def:
+
+common/gdb_locale.h:
+
+common/ptid.h:
+
+common/common-types.h:
+
+../bfd/bfd.h:
+
+../include/symcat.h:
+
+build-gnulib/import/sys/stat.h:
+
+common/common-utils.h:
+
+common/gdb_assert.h:
+
+common/errors.h:
+
+common/print-utils.h:
+
+common/common-debug.h:
+
+common/cleanups.h:
+
+common/common-exceptions.h:
+
+common/gdb_setjmp.h:
+
+gdb_wchar.h:
+
+build-gnulib/import/wctype.h:
+
+ui-file.h:
+
+common/host-defs.h:
+
+../include/hashtab.h:
+
+nm.h:
+
+../include/fopen-bin.h:
+
+gdbarch.h:
+
+frame.h:
+
+unwind_stop_reasons.def:
+
+regcache.h:
+
+common/common-regcache.h:
+
+utils.h:
+
+exceptions.h:
+
+ui-out.h:
+
+target-dcache.h:
+
+dcache.h:
+
+target.h:
+
+infrun.h:
+
+symtab.h:
+
+common/vec.h:
+
+common/gdb_vecs.h:
+
+common/vec.h:
+
+gdbtypes.h:
+
+minsyms.h:
+
+target/target.h:
+
+target/waitstatus.h:
+
+common/gdb_signals.h:
+
+target/resume.h:
+
+target/wait.h:
+
+target/waitstatus.h:
+
+memattr.h:
+
+btrace.h:
+
+common/btrace-common.h:
+
+command.h:
+
+gdbcmd.h:
+
+progspace.h:
+
+registry.h:

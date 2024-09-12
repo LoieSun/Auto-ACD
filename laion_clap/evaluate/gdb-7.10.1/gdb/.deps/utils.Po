@@ -1,0 +1,249 @@
+utils.o: utils.c defs.h common/common-defs.h config.h \
+ build-gnulib/config.h build-gnulib/import/stdio.h \
+ build-gnulib/import/stdlib.h build-gnulib/import/string.h \
+ ../include/ansidecl.h ../include/libiberty.h ../include/ansidecl.h \
+ gnulib/import/pathmax.h build-gnulib/import/unistd.h \
+ ../include/gdb/signals.h ../include/gdb/signals.def common/gdb_locale.h \
+ common/ptid.h common/common-types.h ../bfd/bfd.h ../include/symcat.h \
+ build-gnulib/import/sys/stat.h common/common-utils.h common/gdb_assert.h \
+ common/errors.h common/print-utils.h common/common-debug.h \
+ common/cleanups.h common/common-exceptions.h common/gdb_setjmp.h \
+ gdb_wchar.h build-gnulib/import/wctype.h ui-file.h common/host-defs.h \
+ ../include/hashtab.h nm.h ../include/fopen-bin.h gdbarch.h frame.h \
+ unwind_stop_reasons.def regcache.h common/common-regcache.h utils.h \
+ exceptions.h ui-out.h ../include/dyn-string.h common/gdb_wait.h \
+ event-top.h gdbthread.h breakpoint.h value.h doublest.h \
+ ../include/floatformat.h symtab.h common/vec.h common/gdb_vecs.h \
+ common/vec.h gdbtypes.h minsyms.h expression.h std-operator.def \
+ ada-operator.def ax.h common/ax.def command.h common/break-common.h \
+ probe.h inferior.h target.h infrun.h target/target.h target/waitstatus.h \
+ common/gdb_signals.h target/resume.h target/wait.h target/waitstatus.h \
+ memattr.h btrace.h common/btrace-common.h progspace.h registry.h \
+ common/vec.h ../include/fnmatch.h gdb_bfd.h ../include/timeval-utils.h \
+ gdbcmd.h serial.h gdb-demangle.h language.h charset.h annotate.h \
+ ../include/filenames.h ../include/hashtab.h symfile.h gdb_obstack.h \
+ ../include/obstack.h gdbcore.h exec.h memrange.h top.h main.h solist.h \
+ gdb_curses.h ../opcodes/../readline/readline.h \
+ ../opcodes/../readline/rlstdc.h ../opcodes/../readline/rltypedefs.h \
+ ../opcodes/../readline/keymaps.h ../opcodes/../readline/chardefs.h \
+ ../opcodes/../readline/tilde.h gdb_usleep.h interps.h gdb_regex.h
+
+defs.h:
+
+common/common-defs.h:
+
+config.h:
+
+build-gnulib/config.h:
+
+build-gnulib/import/stdio.h:
+
+build-gnulib/import/stdlib.h:
+
+build-gnulib/import/string.h:
+
+../include/ansidecl.h:
+
+../include/libiberty.h:
+
+../include/ansidecl.h:
+
+gnulib/import/pathmax.h:
+
+build-gnulib/import/unistd.h:
+
+../include/gdb/signals.h:
+
+../include/gdb/signals.def:
+
+common/gdb_locale.h:
+
+common/ptid.h:
+
+common/common-types.h:
+
+../bfd/bfd.h:
+
+../include/symcat.h:
+
+build-gnulib/import/sys/stat.h:
+
+common/common-utils.h:
+
+common/gdb_assert.h:
+
+common/errors.h:
+
+common/print-utils.h:
+
+common/common-debug.h:
+
+common/cleanups.h:
+
+common/common-exceptions.h:
+
+common/gdb_setjmp.h:
+
+gdb_wchar.h:
+
+build-gnulib/import/wctype.h:
+
+ui-file.h:
+
+common/host-defs.h:
+
+../include/hashtab.h:
+
+nm.h:
+
+../include/fopen-bin.h:
+
+gdbarch.h:
+
+frame.h:
+
+unwind_stop_reasons.def:
+
+regcache.h:
+
+common/common-regcache.h:
+
+utils.h:
+
+exceptions.h:
+
+ui-out.h:
+
+../include/dyn-string.h:
+
+common/gdb_wait.h:
+
+event-top.h:
+
+gdbthread.h:
+
+breakpoint.h:
+
+value.h:
+
+doublest.h:
+
+../include/floatformat.h:
+
+symtab.h:
+
+common/vec.h:
+
+common/gdb_vecs.h:
+
+common/vec.h:
+
+gdbtypes.h:
+
+minsyms.h:
+
+expression.h:
+
+std-operator.def:
+
+ada-operator.def:
+
+ax.h:
+
+common/ax.def:
+
+command.h:
+
+common/break-common.h:
+
+probe.h:
+
+inferior.h:
+
+target.h:
+
+infrun.h:
+
+target/target.h:
+
+target/waitstatus.h:
+
+common/gdb_signals.h:
+
+target/resume.h:
+
+target/wait.h:
+
+target/waitstatus.h:
+
+memattr.h:
+
+btrace.h:
+
+common/btrace-common.h:
+
+progspace.h:
+
+registry.h:
+
+common/vec.h:
+
+../include/fnmatch.h:
+
+gdb_bfd.h:
+
+../include/timeval-utils.h:
+
+gdbcmd.h:
+
+serial.h:
+
+gdb-demangle.h:
+
+language.h:
+
+charset.h:
+
+annotate.h:
+
+../include/filenames.h:
+
+../include/hashtab.h:
+
+symfile.h:
+
+gdb_obstack.h:
+
+../include/obstack.h:
+
+gdbcore.h:
+
+exec.h:
+
+memrange.h:
+
+top.h:
+
+main.h:
+
+solist.h:
+
+gdb_curses.h:
+
+../opcodes/../readline/readline.h:
+
+../opcodes/../readline/rlstdc.h:
+
+../opcodes/../readline/rltypedefs.h:
+
+../opcodes/../readline/keymaps.h:
+
+../opcodes/../readline/chardefs.h:
+
+../opcodes/../readline/tilde.h:
+
+gdb_usleep.h:
+
+interps.h:
+
+gdb_regex.h:
